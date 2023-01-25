@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li-Fi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="Logo-LiFi.png">
+</head>
+
+<body id="homebody">
+    <header>
+            <a href="home.html" class="logo"><img src="Logo-LiFi.png" height="60px"></a>
+            <nav>
+                 <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="files.html">Files</a>
+                    </li>
+                    
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+    
+    <h1 class="heading1">
+        Li-Fi <br>
+        <p id="title1">THE FUTURE OF INTERNET</p>
+    </h1>
+
+</body>
+
+</html>
