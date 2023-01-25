@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="Logo-LiFi.png">
+</head>
+
+<body>
+    
+    
+    <header>
+        <a href="home.html" class="logo"><img src="Logo-LiFi.png" height="60px"></a>
+        <nav>
+             <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="files.html">Files</a>
+                </li>
+                
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--little javascript code :))))-->
+    <script type="text/javascript">
+      window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+         })
+    </script>
+
+    <h1 id="heading2first">
+        What is Li-Fi?
+    </h1>
+    <p class="paragraph1">
+        "Light Fidelity" is shortened as Li-Fi. LiFi is a wireless optical networking technology. Specifically, it is a form of visible light communications (VLC) system that makes use of light-emitting diodes (LED) for data transmission. <br>
+        LiFi has a special distinction from other VLC systems. Similar to WiFi, LiFi is the only form of VLC that allows the bidirectional transmission of light. However, instead of the radio spectrum, it makes use of the visible light spectrum through LED lightbulbs outfitted with a special chip. <br>
+        <img src="professor-harald-haas.jpg" id="img1"  height="200px">
+        Professor Harald Haas coined the term "Li-Fi" at his 2011 TED Global Talk where he introduced the idea of "wireless data from every light". <br>
+        He is Professor of Mobile Communications at the University of Edinburgh, and the co-founder of pureLiFi along with Dr Mostafa Afgani.
+    </p>
+
+    <h1 class="heading2">
+        How do Li-Fi works?
+    </h1>
+    <p class="paragraph1">
+        <img src="LIFI Technology Working.jpg" class="right"  height="400px">
+        As LEDs are semi-conductor light sources, the current of electricity can be brightened and dimmed at ultra-high speeds. Therefore they can be switched on and off faster than the naked eye can detect, making the light source appear to be on continuously. While to us these changes in amplitude go unnoticed, they can in fact enable the transmission of data at rapid speeds. <br>
+        Data is fed into an LED lightbulb embedded with a microchip with signal processing technology. When the data is streamed, the changes in amplitude causing the LED to turn on and off allow the data to be transmitted in binary code. A photodiode detects the light stream and transforms the amplitude fluctuations into an electric current. <br>
+        The electrical signals are then converted back into a data stream and transmitted to a computer or mobile device, where a binary data stream runs web, video and audio applications. 
+        
+    </p>
+    
+    <h1 class="heading2">
+        Advantages
+    </h1>
+    <ul class="ul1">
+        <li> <b>Speed: </b>Perhaps the biggest selling point of LiFi technology is that it is able to transmit data at far greater speeds than WiFi. During lab tests, researchers were able to reach bidirectional transfer speeds of 224 gigabits per second. Of course, it would be difficult to reach those speeds in a real-world setting. But reaching even 1% of that means speeds of 2.24 gigabits per second - a significant improvement over WiFi, which nets transfer speeds of about 20 megabits per second.</li>
+        <li> <b>Security: </b> RF communication technology has always been vulnerable to eavesdropping, signal hijacking, or even brute force attacks. However, visible light is unable to permeate opaque surfaces. Signals emitted by LiFi as well as the data transmitted through it remain confined within the space.</li>
+        <li> <b>Availability: </b> As the world looks to use green technology, LED light bulbs are becoming a staple everywhere – in homes, offices, businesses, and even transportation. This means soon enough, high-speed internet connectivity will be as ubiquitous as there are light bulbs.</li>
+    </ul>
+
+    <h1 class="heading2">
+        Disadvantages
+    </h1>
+    <ul class="ul1">
+        <li> <b>Limitations: </b>LiFi offers a limited range. While this may prove useful for security, it also creates disadvantages. Physical barriers limit its operational scope. In order to increase its scope, lamps or bulbs must be strategically placed in various rooms. In contrast, a single WiFi router has a wider, longer range, making them an ideal selection for public networks.</li>
+        <li> <b>Interference: </b> LiFi signals are susceptible to light interferences, including sunlight. Receivers may have a difficult time to process signals when other sources of light are present. Moreover, because LED lamps must remain on to function, they can further contribute to light pollution, especially if set at higher brightness levels to compensate for possible interference.</li>
+        <li> <b>Infrastructure: </b> Theoretically speaking, deploying LiFi systems are inexpensive because they only make use of LED lamps. In reality, the installation of LiFi systems can become expensive due to the lack of infrastructure. Additionally, due to its limited range, several LiFi routers will need to be installed for greater connectivity. This means incurring additional purchase and installation costs. In contrast, a small home will only require a single WiFi router.</li>
+    </ul>
+
+    <h1 class="heading2">
+        Li-Fi vs Wi-Fi
+    </h1>
+    <table class="redTable">
+        <thead>
+        <tr>
+        <th>Parameter</th>
+        <th>Li-Fi</th>
+        <th>Wi-Fi</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td> <b>Speed</b> </td>
+        <td>***</td>
+        <td>**</td>
+        </tr>
+        <tr>
+        <td> <b>Range</b> </td>
+        <td>*</td>
+        <td>**</td>
+        </tr>
+        <tr>
+        <td> <b>Data density</b> </td>
+        <td>***</td>
+        <td>*</td>
+        </tr>
+        <tr>
+        <td> <b>Security</b> </td>
+        <td>***</td>
+        <td>**</td>
+        </tr>
+        <tr>
+        <td> <b>Reliability</b> </td>
+        <td>**</td>
+        <td>**</td>
+        </tr>
+        <tr>
+        <td> <b>Power available</b> </td>
+        <td>***</td>
+        <td>*</td>
+        </tr>
+        <tr>
+        <td> <b>Ecological impact</b> </td>
+        <td>*</td>
+        <td>**</td>
+        </tr>
+        <tr>
+        <td> <b>Device-to-device connectivity</b> </td>
+        <td>***</td>
+        <td>***</td>
+        </tr>
+        <tr>
+        <td> <b>Obstacle interference</b> </td>
+        <td>***</td>
+        <td>*</td>
+        </tr>
+        <tr>
+        <td> <b>Bill of materials</b> </td>
+        <td>***</td>
+        <td>**</td>
+        </tr>
+        <tr>
+        <td> <b>Market maturity</b> </td>
+        <td>*</td>
+        <td>***</td>
+        </tr>
+        <tr>
+        <td> <b>Transmit/receive power</b> </td>
+        <td>***</td>
+        <td>**</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+    <script type="text/javascript">
+        var mybutton = document.getElementById("topBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() 
+        {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+            {
+                mybutton.style.display = "block";
+            } 
+            else 
+            {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction()
+        {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
